@@ -19,8 +19,8 @@ const Work = ({ sectionStyles }) => {
         <div className="row">
           <div className="col">
             <SectionHeader
-              header="WORK PROCESS"
-              description="In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts."
+              header="How it works"
+              description=""
             />
           </div>
         </div>
@@ -29,20 +29,20 @@ const Work = ({ sectionStyles }) => {
             <div className={boxContainer}>
               <div className={box}>
                 <i className="fas fa-pen-fancy" />
-                <h4 className="mt-3 mb-3">tell us what you need</h4>
-                <p>The Big Oxmox advised her not to do so.</p>
+                <h4 className="mt-3 mb-3">Pick your package</h4>
+                <p>There are three to choose from and all customizable.</p>
               </div>
               <div className={`${box} ${boxIcon}`}>
                 <div className={leftArrow}>&#129122;</div>
                 <div className={rightArrow}>&#129122;</div>
                 <i className="far fa-address-card" />
-                <h4 className="mt-3 mb-3">tell us what you need</h4>
-                <p>The Big Oxmox advised her not to do so.</p>
+                <h4 className="mt-3 mb-3">Choose your date</h4>
+                <p>Spaces fill up quickly so schedule as soon as possible.</p>
               </div>
               <div className={box}>
                 <i className="fas fa-bullseye" />
-                <h4 className="mt-3 mb-3">tell us what you need</h4>
-                <p>The Big Oxmox advised her not to do so.</p>
+                <h4 className="mt-3 mb-3">Where do you want it?</h4>
+                <p>We can accommodate most any flat surface, call us for a site visit.</p>
               </div>
             </div>
           </div>

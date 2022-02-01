@@ -30,7 +30,7 @@ const Nav = () => {
   return (
     <nav className={`${nav} navbar sticky ${scrolled ? nav__fixed : ''} `}>
       <div className={nav__brand}>
-        <a href="#home">dorsin</a>
+        <a href="#home">All The Rage</a>
       </div>
       <ul className={`${nav__list} ${isVisible ? nav__listVisible : ''}`}>
         <li className={nav__item}>
@@ -46,18 +46,19 @@ const Nav = () => {
           <a href="#pricing">pricing</a>
         </li>
         <li className={nav__item}>
-          <a href="#team">team</a>
+          <a href="">contact</a>
         </li>
+        {/*<li className={nav__item}>*/}
+        {/*  <a href=""></a>*/}
+        {/*</li>*/}
+        {/*<li className={nav__item}>*/}
+        {/*  <a href="#contact">contact</a>*/}
+        {/*</li>*/}
         <li className={nav__item}>
-          <a href="#blog">blog</a>
-        </li>
-        <li className={nav__item}>
-          <a href="#contact">contact</a>
-        </li>
-        <li className={nav__item}>
-          <Button isCurved>Try it free</Button>
+          <Button isCurved>Schedule your rage!</Button>
         </li>
       </ul>
+
       <i
         className={`fas fa-bars ${nav__icon}`}
         onClick={() => setIsVisible(!isVisible)}

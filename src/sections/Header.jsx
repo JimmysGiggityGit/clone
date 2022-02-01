@@ -16,8 +16,8 @@ const Header = () => {
       <BgLayout />
       <Nav />
       <HeadingDescription
-        headingContent="We help startups launch their products"
-        description="Etiam sed.Interdum consequat proin vestibulum class at a euismod mus luctus quam.Lorem ipsum dolor sit amet, consectetur adipisicing eli."
+        headingContent="Kansas City's only mobile Rage Room"
+        description="We bring the action to your backyard, event space, festival, fund raiser, and more."
       />
     </header>
   );

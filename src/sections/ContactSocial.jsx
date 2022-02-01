@@ -4,7 +4,6 @@ import {
   contactSocial,
   socialBox,
   socialIcons,
-  facebook,
   twitter,
   linkedin,
   google,
@@ -18,15 +17,7 @@ const ContactSocial = () => {
         <div className={socialBox}>
           <div className={socialIcons}>
             <a
-              href="https://www.facebook.com/khaled.refaatelkady/"
-              target="_blank"
-              rel="noreferrer"
-              className={facebook}
-            >
-              <i className="fab fa-facebook-f" />
-            </a>
-            <a
-              href="https://twitter.com/KhaledR15807100"
+              href="https://twitter.com"
               target="_blank"
               rel="noreferrer"
               className={twitter}
@@ -34,7 +25,7 @@ const ContactSocial = () => {
               <i className="fab fa-twitter" />
             </a>
             <a
-              href="https://www.linkedin.com/in/khaled-refaat-elkady-370305168/"
+              href="https://www.linkedin.com/in/james-dailey-84853678/"
               target="_blank"
               rel="noreferrer"
               className={linkedin}
@@ -49,20 +40,13 @@ const ContactSocial = () => {
             >
               <i className="fab fa-google-plus-g" />
             </a>
-            <a
-              href="https://dribbble.com/"
-              target="_blank"
-              rel="noreferrer"
-              className={dribble}
-            >
-              <i className="fab fa-dribbble" />
-            </a>
+
           </div>
           <p>
-            <i className="fas fa-phone" /> +91 123 4556 789
+            <i className="fas fa-phone" /> 816-555-1234
           </p>
           <p>
-            <i className="far fa-envelope-open" /> Support@info.com
+            <i className="far fa-envelope-open" /> Support@alltherage.com
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer:wght@500;700&family=Rubik:wght@300;400&display=swap');
 
 *,
 *::before,
@@ -29,6 +29,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nosifer', fantasy ;
 }

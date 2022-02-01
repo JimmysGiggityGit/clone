@@ -37,21 +37,14 @@ const Contact = ({ sectionStyles }) => {
               <p className="d-flex flex-column mb-5">
                 <span className={contact__infoTitle}>Office Address 1:</span>
                 <span className={contact__infoMuted}>
-                  4461 Cedar Street Moro, AR 72368
+                  4500 Main street, Kansas City, Mo
                 </span>
               </p>
-              <p className="d-flex flex-column mb-5">
-                <span className={contact__infoTitle}>Office Address 2:</span>
-                <span className={contact__infoMuted}>
-                  2467 Swick Hill Street
-                </span>
-                <span className={contact__infoMuted}>
-                  New Orleans, LA 70171
-                </span>
-              </p>
+
               <p className="d-flex flex-column">
-                <span className={contact__infoTitle}>Working Hours:</span>
-                <span className={contact__infoMuted}>9:00AM To 6:00PM</span>
+                <span className={contact__infoTitle}>Schedule:</span>
+                <span className={contact__infoMuted}>Monday thru Saturday</span>
+                <span className={contact__infoMuted}>Hours vary by time and availability</span>
               </p>
             </div>
           </div>

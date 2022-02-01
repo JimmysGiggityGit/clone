@@ -1,17 +1,17 @@
 @import '../vars.scss';
 
-.bglayout {
-  background-image: linear-gradient(to right, #512da8, #711e72);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.9;
-}
+//.bglayout {
+//  background-image: linear-gradient(to right, red, grey);
+//  position: absolute;
+//  top: 0;
+//  right: 0;
+//  bottom: 0;
+//  left: 0;
+//  opacity: 0.9;
+//}
 
 .bgpattern {
-  position: absolute;
+  position: absolute ;
   z-index: 1;
   bottom: -8px;
   right: 0;

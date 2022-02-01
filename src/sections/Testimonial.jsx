@@ -16,7 +16,8 @@ const Testimonial = ({ sectionStyles }) => {
           <div className="col">
             <SectionHeader
               header="WHAT THEY'VE SAID"
-              description="The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli."
+              description="Have a look at what these raging people have to say..."
+
             />
           </div>
         </div>
@@ -25,12 +26,13 @@ const Testimonial = ({ sectionStyles }) => {
             <div className={box}>
               <img src={testimonialImg1} alt="ben parker" />
               <p>
-                "I feel confident imposing change on myself. It's a lot more fun
-                progressing than looking back. That's why I need to throw curve
-                balls."
+                "I was feeling like a little boy, all pout-y because the liquor store only had Mickeys in 24 packs
+                and I dont want that many, so I got mad and peed on the floor. Then the police came and arrested me. When I
+                got out of jail I went and ordered a rage room for myself and had them set it up in the trailer park. I
+                beat the hell out of my ex-wife's leftover furniture, felt so good I had to go get more Mickeys, but only a six-pack."
               </p>
               <h5>
-                BEN PARKER - <span>Charleston</span>
+                Kipp Woodcock - <span>Lenexa</span>
               </h5>
             </div>
           </div>
@@ -38,13 +40,13 @@ const Testimonial = ({ sectionStyles }) => {
             <div className={box}>
               <img src={testimonialImg2} alt="brooke cagle" />
               <p>
-                "Our task must be to free ourselves by widening our circle of
-                compassion to embrace all living creatures and the whole of
-                nature and its beauty."
+                "I never thought of myself as a destructive or violent person, but once I got suited up and started
+                swinging it took three people to wrestle me out of there. I smashed everything I could, and the whole time
+                I was thinking of my boss, my ex-boyfriend, the neighbors, everyone who's p****d me off. I felt wonderful afterwards."
               </p>
               <h5>
                 {' '}
-                BROOKE CAGLE - <span>Worcester</span>
+                Brooke Smearson- <span>Lee's Summit</span>
               </h5>
             </div>
           </div>
@@ -54,10 +56,13 @@ const Testimonial = ({ sectionStyles }) => {
               <p>
                 "I've learned that people will forget what you said, people will
                 forget what you did, but people will never forget how you made
-                them feel."
+                them feel, and the rage room experience was no different. Except, some of the things I said about my co-workers
+                while I was smashing plates that I wrote their names on, I may have keep hitting the broken plates well after
+                they were broken, I dont remember. All I know is that nobody in the office, except for the creepy mail person, will talk to me. Overall
+                it was worth it 10/10"
               </p>
               <h5>
-                VICKY HLADYNETS - <span>Lynchburg</span>
+                Vicky Prodopolisky - <span>Kansas City</span>
               </h5>
             </div>
           </div>

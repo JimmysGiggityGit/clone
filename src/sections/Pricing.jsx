@@ -17,85 +17,70 @@ const Pricing = ({ sectionStyles }) => {
     <section id="pricing" className={sectionStyles}>
       <SectionHeader
         header="OUR PRICING"
-        description="Call to action pricing table is really crucial to your for your business website. Make your bids stand-out with amazing options."
+        description="With packages to suit your needs plus the flexibility and options to modify your experience."
       />
       <div className="container">
         <div className="row">
           <div className="col-md">
             <div className={card}>
-              <h4 className={`${heading4} mb-2`}>economy</h4>
-              <h1 className={`${heading1} mb-2`}>$9.90</h1>
-              <h6 className={`${heading6}`}>billing per month</h6>
+              <h4 className={`${heading4} mb-2`}>Basic (Monday-Thursday)</h4>
+              <h1 className={`${heading1} mb-2`}>$200/Hour</h1>
+              <h6 className={`${heading6}`}>Two hour minimum</h6>
               <div className={`${divider} mb-4`} />
               <div className={`${plan}`}>
                 <p>
-                  bandwidth: <span>1GB</span>
+                  Destructables: <span>200 pieces</span>
                 </p>
                 <p>
-                  onlinespace: <span>50MB</span>
+                  Setup time: <span>1 hour</span>
                 </p>
                 <p>
-                  support: <span>no</span>
+                  Customization: <span>Call for details</span>
                 </p>
-                <p>
-                  domain: <span>1</span>
-                </p>
-                <p>
-                  hidden fees: <span>No</span>
-                </p>
-                <Button styles="mt-4">join now</Button>
+
+
+
+
+                <Button styles="mt-4">Book Now</Button>
               </div>
             </div>
           </div>
           <div className="col-md">
             <div className={card}>
-              <h4 className={`${heading4} mb-2`}>deluxe</h4>
-              <h1 className={`${heading1} mb-2`}>$19.90</h1>
-              <h6 className={`${heading6}`}>billing per month</h6>
+              <h4 className={`${heading4} mb-2`}>Weekends</h4>
+              <h1 className={`${heading1} mb-2`}>$400/hour</h1>
+              <h6 className={`${heading6}`}>Two hour minimum</h6>
               <div className={`${divider} mb-4`} />
               <div className={`${plan}`}>
                 <p>
-                  bandwidth: <span>10GB</span>
+                  Destructables: <span>$400 pieces</span>
                 </p>
                 <p>
-                  onlinespace: <span>500MB</span>
+                  Setup time: <span>1.5-2 hours</span>
                 </p>
                 <p>
-                  support: <span>no</span>
+                  Customization: <span>Call for details</span>
                 </p>
-                <p>
-                  domain: <span>10</span>
-                </p>
-                <p>
-                  hidden fees: <span>No</span>
-                </p>
-                <Button styles="mt-4">join now</Button>
+
+                <Button styles="mt-4">Book now</Button>
               </div>
             </div>
           </div>
           <div className="col-md">
             <div className={card}>
-              <h4 className={`${heading4} mb-2`}>ultimate</h4>
-              <h1 className={`${heading1} mb-2`}>$9.90</h1>
-              <h6 className={`${heading6}`}>billing per month</h6>
+              <h4 className={`${heading4} mb-2`}>ultimate customized experience</h4>
+              <h1 className={`${heading1} mb-2`}>Starting at $400/hour</h1>
+              <h6 className={`${heading6}`}>Price based on customization, call for details</h6>
               <div className={`${divider} mb-4`} />
               <div className={`${plan}`}>
                 <p>
-                  bandwidth: <span>100GB</span>
+                  Destructables: <span>400 pieces + customized additions</span>
                 </p>
                 <p>
-                  onlinespace: <span>2GB</span>
+                  Setup time: <span>Two hours+</span>
                 </p>
-                <p>
-                  support: <span>yes</span>
-                </p>
-                <p>
-                  domain: <span>unlimited</span>
-                </p>
-                <p>
-                  hidden fees: <span>No</span>
-                </p>
-                <Button styles="mt-4">join now</Button>
+
+                <Button styles="mt-4">Call for details</Button>
               </div>
             </div>
           </div>

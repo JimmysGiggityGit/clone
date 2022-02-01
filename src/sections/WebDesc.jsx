@@ -14,9 +14,9 @@ const WebDesc = () => {
     >
       <BgLayout />
       <HeadingDescription
-        headingContent="Build your dream website today"
-        description="But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her."
-        Button={() => <Button iswhite>view plan & pricing</Button>}
+        headingContent="Schedule your rage experience today!"
+        description="Just click on the date you want and we will do the rest."
+        Button={() => <Button iswhite>Get the Rage!</Button>}
       />
     </section>
   );
