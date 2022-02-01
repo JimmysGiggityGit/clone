@@ -7,7 +7,6 @@ import {
   twitter,
   linkedin,
   google,
-  dribble,
 } from './ContactSocial.module.scss';
 
 const ContactSocial = () => {

@@ -27,7 +27,7 @@ const Contact = ({ sectionStyles }) => {
           <div className="col">
             <SectionHeader
               header="GET IN TOUCH"
-              description="We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with measurable results."
+              description=""
             />
           </div>
         </div>

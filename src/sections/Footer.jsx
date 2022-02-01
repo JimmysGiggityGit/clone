@@ -2,7 +2,7 @@ import React from 'react';
 
 import { footer, payment } from './Footer.module.scss';
 
-import paymentImg from '../images/payment.png';
+
 
 const Footer = () => {
   return (
@@ -14,9 +14,6 @@ const Footer = () => {
             <ul>
               <li className="mb-2">
                 <a href="/#">home</a>
-              </li>
-              <li className="mb-2">
-                <a href="/#">about us</a>
               </li>
               <li>
                 <a href="/#">contact us</a>
@@ -30,12 +27,12 @@ const Footer = () => {
               <li className="mb-2">
                 <a href="/#">support</a>
               </li>
-              <li className="mb-2">
-                <a href="/#">faq</a>
-              </li>
-              <li>
-                <a href="/#">disscusion</a>
-              </li>
+              {/*<li className="mb-2">*/}
+              {/*  <a href="/#">faq</a>*/}
+              {/*</li>*/}
+              {/*<li>*/}
+              {/*  <a href="/#">disscusion</a>*/}
+              {/*</li>*/}
             </ul>
           </div>
           <div className="col-lg-3 col-md-12">
